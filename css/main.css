@@ -1,3 +1,102 @@
 /*
  * Estilos de tu proyecto
  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.menu-header {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.container-profile {
+    background-color:#18BC9C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 5%;
+}
+
+.section-portfolio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* max-width: 500px; */
+    padding: 2%;
+}
+
+.section-portfolio img{
+    width: 30%;
+}
+
+.container-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-images img {
+    max-width: 30%;
+    padding: 2%;
+}
+
+.about-section{
+    background-color:#18BC9C;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 5%;
+}
+
+.info-about{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.info-about p {
+    padding: 2%;
+}
+
+.about-section button{
+    background-color:#18BC9C;
+    border-color: white;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-me-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+}
+
+.form-contactme input{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #8A9198;
+    
+}
+
